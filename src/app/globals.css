@@ -3,6 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --clr-primary: #DB3022;
+  --text-primary: #222222;
+  --clr-my-gray: #9B9B9B;
 }
 
 @theme inline {
@@ -10,6 +13,9 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-clr-primary: var(--clr-primary);
+  --color-text-primary: var(--text-primary);
+  --color-clr-my-gray: var(--clr-my-gray); 
 }
 
 @media (prefers-color-scheme: dark) {
