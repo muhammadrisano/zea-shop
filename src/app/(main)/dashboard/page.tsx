@@ -1,10 +1,10 @@
 import React from 'react'
-import Button from '../../components/attom/Button'
+import { Sidebar } from './_components'
 
 const page = () => {
   return (
     <div>
-      <Button variant='secondary' label='coba'/>
+    
     </div>
   )
 }
